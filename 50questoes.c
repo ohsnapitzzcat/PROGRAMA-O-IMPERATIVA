@@ -5,7 +5,7 @@
 #include <assert.h>
 
 void ex1() {
-    int maior = INT_MIN;
+    int maior = INT_MIN; // constante que representa o valor minimo que um inteiro pode ter em C
     puts("Maior de uma sequência\n Insere uma sequencia de inteiros terminada em 0");
     while (1) {
         int num;
